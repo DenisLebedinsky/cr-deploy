@@ -7,7 +7,7 @@
 var app = require("../app");
 var debug = require("debug")("api-houselist:server");
 var http = require("http");
-var config = require("../config");
+
 require("dotenv").config();
 /**
  * Get port from environment and store in Express.
